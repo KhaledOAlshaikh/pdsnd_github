@@ -300,7 +300,7 @@ def get_data():
         Calls other functions to get the necessary based on user input
     
     """
-    print("\nWelcome to Khaled Alshaikh\'s Udacity Project Submission. \n\nLet\'s explore some data!")
+    print("\nHello, User! Welcome to Khaled Alshaikh\'s Udacity Project Submission. \n\nLet\'s explore some data!")
     # Assigns city, month, and day to the functions "get_city", "get_month", and "get_day respectively
     city = str(get_city())
     month = str(get_month())

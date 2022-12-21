@@ -13,13 +13,13 @@ def get_city():
         (str) lwr_city_name - lowercase name of the city
         
     """
-    # Creating a list of cities
+    # Creating a list of cities that the user needs to select from
     cities = ["washington","new_york_city","chicago"]
     
     # Creating an empty string of variable 'lwr_city_name' to make lower case
     lwr_city_name = ""
     
-    # Loop to keep asking user for valid input
+    # Loop to keep asking user for valid input of cities for which data is available
     while lwr_city_name not in cities:
         city_name = str(input("\nEnter either Washington, New York City, or Chicago to see data from those cities: "))
         

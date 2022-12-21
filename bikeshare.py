@@ -168,7 +168,7 @@ def pop_time(df, dict):
         print("The most popular day: " + daydict[popular_day])
         
         # Displays how much it took to calculate the previous calculations
-        print(f"\nThis took {(time.time() - stopwatch)} seconds.")
+        print(f"\nThis process took {(time.time() - stopwatch)} seconds.")
         print("_"*100)
 
 def pop_stations(df, dict):
@@ -197,7 +197,7 @@ def pop_stations(df, dict):
         print("The most popular trips: " + str(popular_trips))
         
         # Displays how much it took to calculate the previous calculations
-        print(f"\nThis took {(time.time() - stopwatch)} seconds.")
+        print(f"\nThis process took {(time.time() - stopwatch)} seconds.")
         print("_"*100)
     else:
         pass
@@ -229,7 +229,7 @@ def travel_times(df, dict):
         print(f"The average travel time: {int((avg_mins % 60) // 1)} minute(s), and {int((avg_travel_times % 60) // 1)} seconds" )
         
         
-        print(f"\nThis took {(time.time() - stopwatch)} seconds.")
+        print(f"\nThis process took {(time.time() - stopwatch)} seconds.")
         print("_"*100)
 
 def user_info(df, dict, city_name):
@@ -265,7 +265,7 @@ def user_info(df, dict, city_name):
         else:
             pass
         
-        print(f"\nThis took {(time.time() - stopwatch)} seconds.")
+        print(f"\nThis process took {(time.time() - stopwatch)} seconds.")
 
 def more_data(df):
     """ 

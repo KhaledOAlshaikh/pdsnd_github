@@ -19,4 +19,6 @@ It calculates and retrieves data from certain cities based on user input
 - W3 Schools
 - FolkStalk
 - Pynative
+- pandas.pydata
+- StudyTonight
 
